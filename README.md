@@ -1,44 +1,66 @@
+# Pokedex
+
+Este proyecto es una pokedex que guarda los pokemon en un storage del entrenador que le es asignado
+
+
+### Instalación 🔧
+
+Primero se necesita instalar las dependencias
+
+```
+npm install
+```
+Despues se procede a instalar json-server preferencia manera global
+
+```
+npm install -g json-server
+```
+
+Despues de procede a correr dentro del proyecto json-server en el puerto 4000
+dado las peticiones axios se encuentran en ese puerto
+```
+json-server --watch db.json --port 4000
+```
+
+Para iniciar sesion 
+```
+Usuario: red
+Password:pikachu
+```
+Para agregar un pokemon se procesede ir a pokedex selecionar por un numero un pokemon
+y clickear el boton azul grande.
+
+### estilo de codificación ⌨️
+se instalo eslint con la guia de estilos [Airbnb React](https://github.com/airbnb/javascript/tree/master/react#class-vs-reactcreateclass-vs-stateless)
+
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [React](https://reactjs.org/docs/getting-started.html) - La libreria Usada
+* [Json Server](https://github.com/typicode/json-server) - Fake Api
+* [Pokemon Font](https://github.com/Superpencil/pokemon-font) - Para el tipo de font del pokemon red
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+## Planes futuros 📌
+Planeo mejorar la aplicacion agregandole un back-end con node.js para tener un mejor control de usuarios,
+ademas mejorar el el diseño de la applicacion,
+agregar mejores validaciones de datos,
+animaciones de carga,
+mejorar la estructura de redux del proyecto.
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+The MIT License (MIT)
+
+Copyright (c) 2015 Chris Kibble
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+Muchas grecias a todos por darme la oportunidad de aplicar con este proyecto.
 
 
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
