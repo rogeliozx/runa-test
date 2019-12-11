@@ -1,25 +1,24 @@
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable linebreak-style */
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import store from './store';
+import Login from './views/Logins';
+import PokedexLayout from './layouts/PokedexLayout';
+import TrainerLayout from './layouts/Ttrainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Provider store={store}>
+        <Switch>
+          <Route exact path='/' component={Login} />
+          <Route exact path='/trainer' component={TrainerLayout} />
+          <Route exact path='/pokedex' component={PokedexLayout} />
+        </Switch>
+      </Provider>
+    </Router>
   );
 }
 
