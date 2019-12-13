@@ -2,6 +2,10 @@
 
 Este proyecto es una pokedex que guarda los pokemon en un storage del entrenador que le es asignado
 
+## Demo Respositorio
+[Pokedex funciona con redux dev tools](https://eloquent-yalow-875e36.netlify.com)<br>
+[Pokedex uso comun](https://upbeat-raman-7b0527.netlify.com)<br>
+
 
 ### Instalación 🔧
 
